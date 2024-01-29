@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-body{
+    background-color: rgb(17, 17, 17);
+}
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-header{
+    display: flex;
+    gap: 1em;
+}
+.link-logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.left-button{
+    background: none;
+    border-style: none;
+    font-size: 30px;
+    color: white;
+}
+.left-button:hover{
+    background-color: rgb(76, 75, 75);
+    border-radius: 60%;
+}
+.sign-in{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    background-color: blueviolet;
+    border-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.center-body{
+   
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.anime{
+    width: 450px;
+    height: 45px;
+    border-style: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgba(53, 53, 53, 0.785);
+    padding: 20px;
+    color: rgb(78, 75, 75);
+    border-color: none;
+}
+#search{
+    height: 45px;
+    width: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: none;
+    border-color: none;
+    background-color: blueviolet;
+    color: white;
+}
+p{
+    color: rgb(78, 75, 75);
+    font-size: 13px;
+}
+.telegram, .twitter, .facebook{
+    border-color: none;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    color: white;
+}
+.link-btn{color: white}
+.telegram, .facebook{
+    background-color: rgb(50, 169, 209);
+}
+.twitter{
+    background-color: black;
+}
+.r{background-color: rgb(208, 58, 4)}
+.s{background-color: rgb(138, 207, 138);}
+.r, .s{
+    border-color: none;
+    border-style: none;
+    width: 35px;
+    height: 30px;
+    border-radius: 7px;
+    color: white;
+}
+.connect{
+    color: blueviolet;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.home-page{
+    width: 250px;
+    padding: 10px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    border-style: none;
+    border-color: none;
+    border-radius: 8px;
+}
+.home-page:hover{
+    background-color: rgb(159, 86, 227);
+}
